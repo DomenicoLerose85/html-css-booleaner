@@ -4,9 +4,13 @@ img{
     height: 200px;
 }
 
-figure{
-    width: 50%;
+.tim{
+    width: 45%;
     height: 200px;
+}
+
+figure{
+    margin: 0;
 }
 
 figcaption{
