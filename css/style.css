@@ -1,12 +1,28 @@
-img{
-    background-color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
     width: 100%;
-    height: 200px;
+    height: 120px;
+    background-color: aqua;
+    margin-bottom: 500px;
+}
+
+.header_image_pattern{
+    background-repeat: repeat-y;
+    background-image: url("img/pattern.png");
+    width: 100%;
+    height: 100%;
 }
 
 .tim{
-    width: 45%;
-    height: 200px;
+    display: inline-block;
+    object-fit: cover;
+    width: 48%;
+    height: 400px;
 }
 
 figure{
@@ -20,4 +36,13 @@ figcaption{
 
 p{
     font-size: 10px;
+}
+
+.top_figcaption{
+    color: grey;
+}
+
+.top_figcaption a{
+    color: blue;
+
 }
